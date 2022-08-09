@@ -39,8 +39,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:27.5.2"],\
             ["@types/node", "npm:16.11.47"],\
             ["@types/react", "npm:18.0.17"],\
+            ["@types/react-app", "npm:1.0.6"],\
             ["@types/react-dom", "npm:18.0.6"],\
+            ["@types/testing-library__jest-dom", "npm:5.14.5"],\
             ["react", "npm:18.2.0"],\
+            ["react-app", "npm:1.1.2"],\
             ["react-dom", "virtual:9dfc82c7beb8e23d8c7bc93111c52a0661c30d0869e66fd2913110b5606b1d2b8321dfdef3a6986224154b7a8776ac55bdf33f7c54279b92e2cca1e9897a08eb#npm:18.2.0"],\
             ["react-scripts", "virtual:9dfc82c7beb8e23d8c7bc93111c52a0661c30d0869e66fd2913110b5606b1d2b8321dfdef3a6986224154b7a8776ac55bdf33f7c54279b92e2cca1e9897a08eb#npm:5.0.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"],\
@@ -4478,6 +4481,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/prop-types", "npm:15.7.5"],\
             ["@types/scheduler", "npm:0.16.2"],\
             ["csstype", "npm:3.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/react-app", [\
+        ["npm:1.0.6", {\
+          "packageLocation": "./.yarn/cache/@types-react-app-npm-1.0.6-8d02fbf7bf-dea8671804.zip/node_modules/@types/react-app/",\
+          "packageDependencies": [\
+            ["@types/react-app", "npm:1.0.6"],\
+            ["@types/react", "npm:18.0.17"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -9644,8 +9657,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:27.5.2"],\
             ["@types/node", "npm:16.11.47"],\
             ["@types/react", "npm:18.0.17"],\
+            ["@types/react-app", "npm:1.0.6"],\
             ["@types/react-dom", "npm:18.0.6"],\
+            ["@types/testing-library__jest-dom", "npm:5.14.5"],\
             ["react", "npm:18.2.0"],\
+            ["react-app", "npm:1.1.2"],\
             ["react-dom", "virtual:9dfc82c7beb8e23d8c7bc93111c52a0661c30d0869e66fd2913110b5606b1d2b8321dfdef3a6986224154b7a8776ac55bdf33f7c54279b92e2cca1e9897a08eb#npm:18.2.0"],\
             ["react-scripts", "virtual:9dfc82c7beb8e23d8c7bc93111c52a0661c30d0869e66fd2913110b5606b1d2b8321dfdef3a6986224154b7a8776ac55bdf33f7c54279b92e2cca1e9897a08eb#npm:5.0.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"],\
@@ -14142,6 +14158,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["react", "npm:18.2.0"],\
             ["loose-envify", "npm:1.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-app", [\
+        ["npm:1.1.2", {\
+          "packageLocation": "./.yarn/cache/react-app-npm-1.1.2-8344c11d83-3810657097.zip/node_modules/react-app/",\
+          "packageDependencies": [\
+            ["react-app", "npm:1.1.2"]\
           ],\
           "linkType": "HARD"\
         }]\

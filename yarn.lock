@@ -2390,7 +2390,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/jest-dom@npm:^5.14.1":
+"@testing-library/jest-dom@npm:^5.16.5":
   version: 5.16.5
   resolution: "@testing-library/jest-dom@npm:5.16.5"
   dependencies:
@@ -2750,6 +2750,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-app@npm:^1":
+  version: 1.0.6
+  resolution: "@types/react-app@npm:1.0.6"
+  dependencies:
+    "@types/react": "*"
+  checksum: dea86718041d2aea97b3bcf6776290351767f91d64f166f305b91a855774ffffe4eaf22284a4b9d702105eb95920672013a4ec59ea3d6362908f96a96e9476b9
+  languageName: node
+  linkType: hard
+
 "@types/react-dom@npm:^18.0.0":
   version: 18.0.6
   resolution: "@types/react-dom@npm:18.0.6"
@@ -2759,7 +2768,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18.0.0":
+"@types/react@npm:*, @types/react@npm:^18":
   version: 18.0.17
   resolution: "@types/react@npm:18.0.17"
   dependencies:
@@ -2828,7 +2837,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/testing-library__jest-dom@npm:^5.9.1":
+"@types/testing-library__jest-dom@npm:^5, @types/testing-library__jest-dom@npm:^5.9.1":
   version: 5.14.5
   resolution: "@types/testing-library__jest-dom@npm:5.14.5"
   dependencies:
@@ -6830,14 +6839,17 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "instagram@workspace:."
   dependencies:
-    "@testing-library/jest-dom": ^5.14.1
+    "@testing-library/jest-dom": ^5.16.5
     "@testing-library/react": ^13.0.0
     "@testing-library/user-event": ^13.2.1
     "@types/jest": ^27.0.1
     "@types/node": ^16.7.13
-    "@types/react": ^18.0.0
+    "@types/react": ^18
+    "@types/react-app": ^1
     "@types/react-dom": ^18.0.0
+    "@types/testing-library__jest-dom": ^5
     react: ^18.2.0
+    react-app: ^1.1.2
     react-dom: ^18.2.0
     react-scripts: 5.0.1
     typescript: ^4.4.2
@@ -10185,6 +10197,15 @@ __metadata:
     regenerator-runtime: ^0.13.9
     whatwg-fetch: ^3.6.2
   checksum: 1bb031080af15397d6eb9c69a0c2e93799991f7197a086e4409ba719398f1256b542a3d6c9a34673d516c684eef3e8226c99b335982593851f58f65f6e43571b
+  languageName: node
+  linkType: hard
+
+"react-app@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "react-app@npm:1.1.2"
+  bin:
+    react-app: ./bin/react-app.js
+  checksum: 38106570973f035ad1f25e0027fc0b5ec19d71bf9a713d9a2ed14a25b0d44f880443dcbd1ed742d0f138f2bc7416617c70095e9cce005dc8d33abffd62ba1ca3
   languageName: node
   linkType: hard
 
