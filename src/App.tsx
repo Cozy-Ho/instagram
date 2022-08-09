@@ -1,7 +1,14 @@
 import "./App.css";
+import { Button } from "./components";
 
-function App() {
-  return <div>Hello world</div>;
-}
+const App = () => {
+  console.log("hi");
+  return (
+    <>
+      <div>Hello world</div>;
+      <Button />
+    </>
+  );
+};
 
 export default App;
