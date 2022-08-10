@@ -8,7 +8,7 @@
   "scripts": {
     "front": "yarn workspace @instagram/frontend",
     "back": "yarn workspace @instagram/backend",
-    "sb": "yarn workspace @instagram/frontend storybook"
+    "sb": "yarn workspace @instagram/design storybook"
   },
   "dependencies": {
     "axios": "^0.27.2"
