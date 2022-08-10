@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "noImplicitAny": true,
+    "strict": true,
+    "resolveJsonModule": true
+  }
+}

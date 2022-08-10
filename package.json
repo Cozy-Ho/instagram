@@ -1,0 +1,19 @@
+{
+  "packageManager": "yarn@3.2.2",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "front": "yarn workspace @instagram/frontend",
+    "back": "yarn workspace @instagram/backend",
+    "sb": "yarn workspace @instagram/frontend storybook"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
