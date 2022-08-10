@@ -10,6 +10,7 @@
   "packageManager": "yarn@3.2.2",
   "scripts": {
     "front": "yarn workspace @instagram/frontend",
-    "back": "yarn workspace @instagram/backend"
+    "back": "yarn workspace @instagram/backend",
+    "ui": "yarn workspace @instagram/design"
   }
 }
