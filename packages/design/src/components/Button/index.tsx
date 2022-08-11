@@ -2,7 +2,7 @@ const Button = () => {
   //
   return (
     <>
-      <button>hi</button>
+      <button>Hello world!</button>
     </>
   );
 };
