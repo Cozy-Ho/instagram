@@ -1,4 +1,7 @@
-const Button = () => {
+interface ButtonProps {
+  // color: Color
+}
+const Button = (props: ButtonProps) => {
   //
   return (
     <>
